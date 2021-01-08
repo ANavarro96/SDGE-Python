@@ -1,0 +1,10 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+# Ejemplos de variables
+numero = 1;
+flotante = 1.55;
+print(numero,flotante);

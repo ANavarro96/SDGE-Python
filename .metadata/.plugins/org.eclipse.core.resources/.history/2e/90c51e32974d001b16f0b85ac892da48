@@ -1,0 +1,25 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+# Ejemplos de variables
+numero = 1
+flotante = 1.55
+string = 'Hola soy un string'
+booleano = True
+otroBoolPeroFalso = False
+otroBoolPeroResultado = (1 == 34)
+#print(numero,flotante,string,booleano,otroBoolPeroFalso,otroBoolPeroResultado);
+
+# Ejemplos de variables numericas
+suma = 44 + 25
+resta = 79 - 10
+div = 84 / 2
+mult = 23 * 3
+resto = 50 % 5
+print('Resultado de la suma',suma, 'de la resta',resta,'de la div',div
+      , 'de la mult', mult, 'del resto', resto)
+print('Ahora al cuadrado',2**2)
+print('Operación completita',(5+33)/(8**- 66))

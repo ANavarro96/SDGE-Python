@@ -1,0 +1,8 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+if __name__ == '__pedir-info-consola__':
+    print('hey crack');

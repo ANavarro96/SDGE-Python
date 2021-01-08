@@ -1,0 +1,12 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+print('Hola mundo');
+
+nombre = input("Hola, Como te llamas?")
+print("Hola " + nombre + "!")
+edad = input("y cuantos años tienes?")
+print(edad + 100)

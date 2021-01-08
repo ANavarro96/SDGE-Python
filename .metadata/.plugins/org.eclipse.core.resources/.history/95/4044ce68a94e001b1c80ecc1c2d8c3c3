@@ -1,0 +1,15 @@
+'''
+Created on 4 ene. 2021
+
+@author: aleja
+'''
+
+lista = ['stop','collaborate','and','listen','Ice','is','back','with',
+         'a','brand','new','invention']
+for palabra in lista:
+    print(palabra,len(palabra))
+ 
+# Bucle infnito    
+for palabra in lista:
+    if palabra == 'stop':
+        lista.insert(0,'nuevoo')

@@ -1,0 +1,10 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+print('NO estoy en el main :(');
+
+if __name__ == '__main__':
+    print('hey');

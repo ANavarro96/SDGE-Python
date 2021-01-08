@@ -1,0 +1,11 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+print('Hola mundo');
+
+print("Hola, Como te llamas?")
+nombre = input()
+print("Hola" + nombre + "!")

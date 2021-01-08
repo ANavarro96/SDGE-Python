@@ -1,0 +1,41 @@
+'''
+Created on 4 ene. 2021
+
+@author: aleja
+'''
+
+lista = ['stop','collaborate','and','listen','Ice','is','back','with',
+         'a','brand','new','invention']
+# for palabra in lista:
+#     print(palabra,len(palabra))
+ 
+# Bucle infnito    
+# for palabra in lista:
+#     if palabra == 'stop':
+#         lista.insert(0,'nuevoo')
+#     print(lista)
+
+for palabra in lista[:]:
+    if palabra == 'stop':
+        lista.insert(0, "ice ice babyy")
+#print(lista)
+
+
+# for numero in range(1,20,6):
+#     print("El numerito ",numero," Y su cuadrado",numero**2)
+#     
+
+for n in range(2, 10):  
+    for x in range(2, n):
+        if n % x == 0:
+            print(n, 'es igual a ', x, '*', n//x)
+            break
+    else:
+        # Se ha acabado el bucle
+        print(n, 'es primo')
+        
+for num in range(2, 10):
+    if num % 2 == 0:
+        print("Found an even number", num)
+        continue
+    print("Found a number", num)

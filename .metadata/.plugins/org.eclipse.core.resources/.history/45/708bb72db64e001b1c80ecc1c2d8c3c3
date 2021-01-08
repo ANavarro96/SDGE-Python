@@ -1,0 +1,18 @@
+'''
+Created on 4 ene. 2021
+
+@author: aleja
+'''
+
+def fibonacci(n):
+    inicial = 0
+    siguiente = 1
+    for numero in range(1,n):
+        inicial = siguiente
+        siguiente = inicial + siguiente
+        
+        print(siguiente)
+
+print(fibonacci(10))
+        
+        

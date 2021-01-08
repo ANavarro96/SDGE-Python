@@ -1,0 +1,14 @@
+'''
+Created on 3 ene. 2021
+
+@author: aleja
+'''
+
+# Ejemplos de variables
+numero = 1;
+flotante = 1.55;
+string = 'Hola soy un string';
+booleano = True;
+otroBoolPeroFalso = False;
+otroBoolPeroResultado = (1 == 34);
+print(numero,flotante,string,booleano,otroBoolPeroFalso,otroBoolPeroResultado);

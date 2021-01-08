@@ -1,0 +1,25 @@
+'''
+Created on 4 ene. 2021
+
+@author: aleja
+'''
+
+lista = ['stop','collaborate','and','listen','Ice','is','back','with',
+         'a','brand','new','invention']
+for palabra in lista:
+    print(palabra,len(palabra))
+ 
+# Bucle infnito    
+# for palabra in lista:
+#     if palabra == 'stop':
+#         lista.insert(0,'nuevoo')
+#     print(lista)
+
+for palabra in lista[:]:
+    if palabra == 'stop':
+        lista.insert(0, "ice ice babyy")
+print(lista)
+
+
+for numero in range(1,20,6):
+    print("El numerito " + numero," Y su cuadrado",numero**2)
